@@ -13,10 +13,10 @@ function App() {
 
       <div className="row">
         <div className="col-6">
-          <Slider title="Bread" description="Good bread" img={reactLogo}></Slider>
+          <Slider title="Bread" img={reactLogo}>Good bread</Slider>
         </div>
         <div className="col-6">
-          <Slider title="Rice" description="Good rice" img={viteLogo}></Slider>
+          <Slider title="Rice" img={viteLogo}>Good rice</Slider>
 
         </div>
       </div>

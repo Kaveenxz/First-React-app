@@ -3,7 +3,7 @@ function Slider(props:any){
         <div>
             <img src={props.img}></img>
             <h1>{props.title}</h1>
-            <p>{props.description}</p>
+            <p>{props.children}</p>
             <button className="btn btn-primary">Buy</button>
         </div>
     )
