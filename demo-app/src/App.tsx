@@ -8,11 +8,20 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <div>
-    <h1>Hello I'm Kaveen</h1>
-    <Slider title="Bread" description="Good bread" img={reactLogo}></Slider>
-    <Slider title="Rice" description="Good rice" img={viteLogo}></Slider>
-   </div>
+    <div className='container'>
+      <h1>Hello I'm Kaveen</h1>
+
+      <div className="row">
+        <div className="col-6">
+          <Slider title="Bread" description="Good bread" img={reactLogo}></Slider>
+        </div>
+        <div className="col-6">
+          <Slider title="Rice" description="Good rice" img={viteLogo}></Slider>
+
+        </div>
+      </div>
+
+    </div>
   )
 }
 
