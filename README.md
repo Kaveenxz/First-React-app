@@ -87,5 +87,3 @@ Provide guidelines for contributors. Include information about issue reporting, 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-Adapt this template to match your React app's specifics. The README should be informative and serve as a guide for users and contributors.
