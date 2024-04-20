@@ -2,6 +2,7 @@ import fbIcon from '../assets/Facebook Icon.png'
 import twitterIcon from '../assets/Twitter Icon.png'
 import instrIcon from '../assets/Instagram Icon.png'
 import gitIcon from '../assets/GitHub Icon.png'
+import '../App.css'
 
 
 function Footer() {

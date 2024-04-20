@@ -1,4 +1,6 @@
 import img from '../assets/profile.png'
+import '../App.css'
+
 function Info() {
   return (
     <div>

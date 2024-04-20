@@ -1,6 +1,4 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
@@ -11,4 +9,7 @@ body{
 .card{
   border-radius: 13px;
   background-color: #21222A;
+  min-width: 320px;
 }
+
+
