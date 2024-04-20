@@ -1,15 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 #root {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
   padding: 2rem;
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
 }
 body{
-  background-color: #282D35;
-
+  background-color: #23252C;
 }
 .card{
   border-radius: 13px;
-  background-color: #21222A;
-  min-width: 320px;
+  background-color: #1A1B21;
+  max-width: 320px;
 }
 
+.info > h2{
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 10px ;
+}
+.info > h4{
+  font-size: 18px;
+  margin: 0;
+  color: #f3bf99;
+  font-weight: 400;
+}
 
+.info > h5{
+  font-weight: 600;
+  margin: 10px 0 20px;
+  color: #f5f5f5;
+}
+.btn-mail{
+  background-color: white;
+  border-radius: 13px;
+  border: none;
+  padding: 13px 40px;
+  font-size: 15px;
+  display:flex;
+  font-weight: 600;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+
+}
+
+.space{
+  margin: 10px;
+}
+
+.btn-linkdin{
+  background-color: #5093E2;
+  border-radius: 13px;
+  border: none;
+  padding: 13px 40px;
+  font-size: 15px;
+  display:flex;
+  font-weight: 600;
+  color: white;
+}
+
+.about{
+  text-align: left;
+  color: white;
+  margin: 0 10px;
+}
+.about h3{
+  margin: 20px 0px;
+}
+.about p{
+  margin: 0;
+  font-weight: 300;
+}
+
+.interests{
+  text-align: left;
+  color: white;
+  margin: 0 10px;
+}
+.interests h3{
+  margin: 20px 0px;
+}
+.interests p{
+  margin: 0 0 20px;
+  font-weight: 300;
+}
+
+.footer{
+  background-color: #161619;
+  padding: 20px;
+  border-radius:0 0 13px 13px;
+  display: flex;
+  justify-content: space-evenly;
+}
