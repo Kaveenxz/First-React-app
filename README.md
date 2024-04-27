@@ -79,11 +79,4 @@ Explain the organization of your project's folders. Highlight important director
   - ...
 ```
 
-## Contributing
 
-Provide guidelines for contributors. Include information about issue reporting, pull request submission, and any coding standards to follow.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
